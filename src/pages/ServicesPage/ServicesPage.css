@@ -1,0 +1,30 @@
+.page-wrap {
+  padding: 24px;
+}
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.services-list-item {
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.services-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+.services-link:hover {
+  background: #f7f7f7;
+}
+.services-name {
+  font-weight: 600;
+}
+.services-price {
+  color: #556;
+}

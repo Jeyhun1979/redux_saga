@@ -1,0 +1,30 @@
+.error-wrap {
+  padding: 32px;
+  border: 1px solid #f5c2c7;
+  background: #ffe3e6;
+  color: #842029;
+  border-radius: 8px;
+  text-align: center;
+  margin: 16px auto;
+  max-width: 420px;
+}
+.error-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+.error-message {
+  margin: 12px 0;
+  font-weight: 600;
+}
+.error-button {
+  border: 1px solid #842029;
+  background: #fff;
+  color: #842029;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.error-button:hover {
+  background: #f8d7da;
+}
