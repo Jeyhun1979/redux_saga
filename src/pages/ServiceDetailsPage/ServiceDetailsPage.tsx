@@ -44,7 +44,10 @@ const ServiceDetailsPage = () => {
           <h2>Все услуги</h2>
           <ul className="services-list">
             {listState.data.map((item) => (
-              <li key={item.id} className={`services-list-item ${item.id === id ? 'active' : ''}`}>
+              <li
+                key={item.id}
+                className={`services-list-item ${item.id === id ? "active" : ""}`}
+              >
                 <Link to={`/${item.id}/details`} className="services-link">
                   <span className="services-name">{item.name}</span>
                   <span className="services-price">{item.price} ₽</span>
@@ -72,7 +75,5 @@ const ServiceDetailsPage = () => {
     </section>
   );
 };
-
-export default ServiceDetailsPage;
 
 export default ServiceDetailsPage;
